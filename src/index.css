@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header{
+  display: flex;
+  height: 10vh;
+  padding: 15px;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #2a9df4;
+}
+
+.logo{
+  height: 100%;
+  margin-right: 10px;
+}
+
+.task-list{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  width: 85%;
+  margin-left: 15vw;
+}
+
+.sidebar{
+  height: 100%;
+  width:15vw;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  background-color: burlywood;
+}
+
+.sidebar a{
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar ul li{
+  padding: 10px;
+  margin: 0px 0px 5px 0px;
+  transition: 0.3s ease-in-out all;
+  text-decoration: none;
+  font-style: normal;
+  overflow-wrap: break-word;
+
+}
+
+.sidebar ul li:hover{
+  background-color: rgb(219, 173, 112);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.main--content{
+  width: 100%;
+ 
+}
+
+.task{
+  background-color: cornflowerblue;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 10px 10px 0px 10px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.add--text{
+  margin-right: 20px;
+  height: 30px;
+  width: 90%;
+  text-indent: 10px;
+}
+
+.task--text{
+    margin-right: auto;
+    width: 90%;
+    text-indent: 10px;  
+}
+
+input:focus{
+  outline: none;
+}
+.add{
+  background-color: hotpink;
+}
+
+.task--logo{
+  height: 90%;
+  margin: 5px;
+}
+
+
+.add--text::placeholder{
+  font-style: italic;
+}
+
+.font-awesome{
+ margin: 5px;
+ transition: 0.1s ease-in-out all;
+}
+
+.font-awesome:hover{
+  font-size: 1.75rem;
+  cursor: pointer;
+}
